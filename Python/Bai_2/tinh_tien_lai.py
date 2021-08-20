@@ -1,0 +1,7 @@
+print (("Nguyễn Chí Bảo ").center(78,'-'))
+lai = eval(input("Lãi suất 1 năm (%): \n"))
+tien = eval(input("Số tiền gửi: \n"))
+thang = int(input("Số tháng gửi: \n"))
+tien_lai = (tien * thang) * (lai/12/100)
+print("Tiền Lãi = %.1f" %(tien_lai))
+print ("Tiền vốn + lãi = %s + %s = "%(tien,tien_lai),tien+tien_lai)
