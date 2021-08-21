@@ -1,1 +1,8 @@
-
+print (("Nguyên Chí Bảo").center(78,'-'))
+a = int (input("Nhập vào a: \n"))
+b = int (input("Nhập vào b: \n"))
+c = int (input("Nhập vào c: \n"))
+d = int (input("Nhập vào d: \n"))
+print ("a, b, c, d = %s %s %s %s"%(a,b,c,d))
+print ("Max = ",max(a,b,c,d))
+print ("Min = ",min(a,b,c,d))
